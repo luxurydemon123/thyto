@@ -1,0 +1,50 @@
+*{margin: 0;}
+
+.btn-exit {
+    color: #070707;
+    position: absolute;
+    font-size: 25px;
+    right: 18px;
+    top: 15px;
+    cursor: pointer;
+}
+
+input.form-control {
+    border-radius: 30px;
+}
+
+.contain-add-course {
+    width: 9999px;
+    height: 9999px;
+    position: fixed;
+    z-index: 999;
+    background: #0000009e;
+    visibility: hidden;
+    transition : 0.5s;
+    opacity: 0;
+}
+
+.form-add-course {
+    top: 52px;
+    height: 415px;
+    width: 400px;
+    left: 50%;
+    padding: 25px;
+    position: fixed;
+    z-index: 9999;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 76%, rgba(24,210,110,1) 76%);
+    transform: translateX(-50%);
+    border-radius: 6px;
+    transition : 0.5s;
+
+}
+
+
+.contain-add-course.show {
+    visibility: visible;
+    opacity: 1;     
+}
+
+
+
+	

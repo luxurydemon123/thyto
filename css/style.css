@@ -1,0 +1,463 @@
+*{margin:0;padding: 0; box-sizing: border-box;}
+
+
+/*=----------- Css Contact Us -----------=*/
+
+.btn-outline-success {
+    margin-left: 50%;
+    padding: 5px 70px 5px 70px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    transform: translateX(-50%);
+}
+
+.contact-title {
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact-icon {
+    font-size: 55px;
+    color: #18d36e;
+    padding: 0 0 15px 0;
+    transition: 0.4s;
+}
+
+.card:hover .contact-icon {
+    transform: scale(1.1);
+    color: #11a555;
+}
+
+
+/*=------------- Css Featured Course -------------=*/
+
+
+.card:hover {
+    box-shadow: 0 24px 38px rgba(81,107,117,.21);
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.card {
+    text-align: center;
+    border: none;
+    -webkit-transition: all 0.4s;
+       -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+         -o-transition: all 0.4s;
+            transition: all 0.4s;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+}
+
+.featured-course {
+    background: #f7f7f7;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #141414;
+    position: inherit;
+    padding-bottom: 30px;
+
+}
+
+
+
+/*=------------ carousel ------------=*/
+
+.carousel-caption.d-none.d-md-block {
+    bottom: 35%;
+}
+
+
+.d-block.w-100 {
+    height: 600px;
+}
+
+.contact-icon {
+    font-size: 55px;
+    color: #18d36e;
+    padding: 0 0 15px 0;
+    transition: 0.4s;
+}
+
+.card:hover .contact-icon {
+    transform: scale(1.1);
+    color: #11a555;
+}
+
+/*=------------ quang cao ------------=*/
+
+#statistic-dkr{
+    padding-top: 30px;
+    padding-bottom: 48px;
+}
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.title-hp-dkr{
+    margin-bottom: 30px;
+}
+.title-hp-dkr .text {
+    font-size: 24px;
+}
+.title-hp-dkr {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
+.wpb_wrapper{
+    background: url(images/slide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0
+}
+
+
+
+/*=------------ feature layout------------=*/
+#brand-logo-two {
+    padding-top: 150px;
+}
+.teams-single {
+    padding: 116px 0 120px;
+}
+
+
+.team-member {
+    margin-bottom: 70px;
+    max-width: 370px;
+    margin: 0 auto 70px;
+}
+
+
+
+
+
+/*=------------ feature registic student------------=*/
+
+
+
+#enroll{ 
+    background-color: #ffffff;
+    margin: 0;
+}
+#enroll .col-content {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+}
+#enroll .title1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    color: #BD2E2E;
+    margin: 0;
+}
+
+#enroll .title-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: #BD2E2E;
+    text-transform: uppercase;
+}
+.form-group .custom-input {
+    height: 56px;
+}
+.form-control {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    border-color: #BD2E2E;
+    margin-bottom: 10px;
+}
+
+
+#enroll .title-h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    color: #BD2E2E;
+    font-size: 22px;
+    margin: 0;
+}
+#namep{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+/*/button*/
+.btn-cta {
+    margin-left: 50px;
+    border: none;
+    border-radius: 21px;
+    background-color: #BD2E2E;
+    margin-top: 10px;
+    height: 56px;
+    width: 80%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+/*=------------ phone------------=*/
+.phone-ring{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius:50%;
+    background-color: #f44336;
+    position: relative; bottom: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: rgb(255,255,255);
+    text-align: center;
+    position: fixed;
+    animation: pulse 1s cubic-bezier(0,0,0,0) 0.3s infinite;
+}
+.phone-ring:hover{
+    background-attachment: rgb(240,8,240);
+}
+.phone-ring i {
+    line-height: 55px;
+    font-size: 30px;
+    text-shadow: 0 2px 10px #b52217;
+    animation: changeSize 1s cubic-bezier(0,0,0,0) 0s infinite;
+}
+@keyframes pulse 
+{
+    0% {box-shadow: 0 0 0 0 #fddcda;}
+    25% {box-shadow: 0 0 0 10px #fddcda;}
+    50% {box-shadow: 0 0 0 20px #fef2f2;}
+    75% {box-shadow: 0 0 0 30px #fef2f1;}
+    100% {box-shadow: 0 0 0 40px #fff;}
+}
+@keyframes changeSize {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.2); }
+    50% { transform: scale(0.8); }
+    75% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+
+.p-time {
+    width: 45%;
+    margin: auto;
+    padding: 2px 0px;
+    background: #FFC107;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+
+/*=------------ sign up offline------------=*/
+
+/*=------------ News------------=*/
+
+#image-box {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+#image-box img{
+    width: 100%;
+    vertical-align: middle;
+    
+}
+.blog-title a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333333;
+    transition: 0.4s;
+}
+.author a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    padding-top: 10px;
+}
+.title-and-author .author a.author{
+    color: #feb518;
+}
+.title-and-author .author span.time {
+    color: #6e6e6e;
+    margin-right: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.content p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e6e6e;
+    padding-top: 30px;
+}
+
+.read-more-and-comment {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px dotted #6e6e6e;
+}
+.read-more-and-comment a.readMore {
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.read-more-and-comment a.comment {
+    float: right;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.blog{
+    margin-bottom: 60px;
+}
+.pagination {
+    margin-top: 50px;
+    position: relative;
+}
+.pagination ul.page-number {
+    list-style: none;
+    display: inline-flex;
+}
+.pagination ul.page-number li {
+    margin-right: 10px;
+}
+.pagination ul.page-number li span.current-page {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50%;
+    background: #feb518;
+    padding: 10px 18px;
+    color: #fff;
+}
+.pagination ul.page-number li a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50%;
+    background: transparent;
+    padding: 10px 18px;
+    color: #333333;
+    transition: 0.4s;
+}
+#aside form {
+    position: relative;
+    margin-bottom: 30px;
+}
+#aside form input[type='text'] {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#aside form input[type=text] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #6e6e6e;
+    padding: 0 20px;
+    transition: 0.4s;
+}
+#aside form button[type=submit] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 6px;
+    right: 23px;
+    color: #6e6e6e;
+}
+#aside .categories p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#aside .categories ul {
+    list-style: none;
+}
+#aside .categories ul li a:hover {
+    color: #feb518;
+}
+
+#aside .categories ul li {
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+#aside .categories ul li a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333333;
+    transition: 0.4s;
+}
+#aside .categories ul li a i {
+    margin-right: 10px;
+}
+.blog-title a:hover{
+    color: #feb518;
+}
+.pagination ul.page-number li a:hover{
+
+     font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50%;
+    background: #feb518;
+    padding: 10px 18px;
+    
+    color:  white;
+}
+.read-more-and-comment a.readMore p:hover{
+    color:  #feb518;
+
+}
